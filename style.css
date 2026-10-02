@@ -3312,3 +3312,52 @@ footer {
     }
 
 }
+/* =========================================================
+   SAAJ INTERIORS - MOBILE IMAGE + MAP FIX
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /* OWNER IMAGE */
+    .founder-image {
+        width: 100%;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    .founder-image-frame {
+        width: 100%;
+        height: 520px;
+        overflow: hidden;
+    }
+
+    .founder-image-frame img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center top;
+    }
+
+
+    /* GOOGLE MAP */
+    .location-section {
+        width: 100%;
+        padding: 80px 6%;
+        overflow: hidden;
+    }
+
+    .location-map {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .location-map iframe {
+        width: 100%;
+        height: 400px;
+        display: block;
+        border: 0;
+    }
+
+}
