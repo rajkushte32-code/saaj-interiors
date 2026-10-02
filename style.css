@@ -3361,3 +3361,36 @@ footer {
     }
 
 }
+/* OWNER IMAGE - MOBILE DISPLAY FIX */
+
+@media screen and (max-width: 600px) {
+
+    .founder-image {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+
+    .founder-image-frame {
+        display: block !important;
+        width: 100% !important;
+        height: 520px !important;
+        overflow: hidden !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    .founder-image-frame img {
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        object-fit: cover !important;
+        object-position: center top !important;
+    }
+
+}
