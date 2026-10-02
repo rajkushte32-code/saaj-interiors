@@ -3394,3 +3394,33 @@ footer {
     }
 
 }
+/* FINAL MOBILE OWNER IMAGE FIX */
+
+@media screen and (max-width: 600px) {
+
+    .founder-hidden,
+    .founder-image.founder-hidden {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+
+    .founder-image {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .founder-image-frame {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .founder-image-frame img {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+}
